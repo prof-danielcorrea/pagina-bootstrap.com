@@ -1,0 +1,290 @@
+/* Importação de Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Metrophobic&display=swap');
+
+/* CSS Reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* body{
+    font-size: ;
+} */
+
+ 
+     
+/* Layout */
+.container {
+    margin: 0 auto;
+}
+
+.flex {
+   display: flex;
+   justify-content: space-between; 
+}
+
+.imagem-flex {
+    display: flex;
+    width: 1200px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.imagem-flex img {
+    max-width: 100%;
+}
+  
+/* Imagens templates */
+  .imagem-coluna {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    width: 300px;    
+}
+
+.imagem-coluna a:hover{
+    padding-top: 10px;
+    transition: 1s;
+    }
+    
+#templates{
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+#sobre-templates{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* topo do site */
+
+#topo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+.texto-desc{
+    width: 330px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: justify;
+    font-size: 24px;
+    
+}
+
+hr{
+    display: block; 
+    border-top: 1px solid;
+    opacity: .25;
+    margin-left: 200px;
+    margin-right: 200px;
+ 
+
+}
+.destaque{
+    background-image: url("./src/images/IMAGEM\ PARA\ O\ LAYOUT.jpg");
+    display: flex;
+    height: 790px;
+    margin-bottom: 20px;
+
+}
+
+.buttom-templates a{
+    text-decoration: none;
+    background-color: #dc392d;
+    color: #ffffff;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 18px;
+}
+
+.buttom-templates a:hover{
+    background-color: #9f2118;
+    
+}
+
+hr{
+    color: #343538;
+}
+
+.titulo-black{
+    padding-top: 20px;
+    font-size: 40px;
+    color: #363d47;
+}
+.titulo-red {
+    font-size: 40px;
+    color: #dc392d;
+}
+
+/* rodapé do site */
+
+.container-rodape a{
+    text-decoration: none;
+    margin: 5px;
+    
+}
+
+.twitter{
+    
+    width: 50px;
+    height: 50px; 
+}
+.github{
+    width: 50px;
+    height: 50px; 
+}
+.facebook{
+    width: 45px;
+    height: 45px; 
+}
+
+#contact {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    display: block;
+    text-align: center;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.texto-224-betel{
+    color: #dc392d;
+    padding-top: 5px;
+}
+/* Smartphone Portrait 
+>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/* Cabeçalho */
+header{
+    height: 60px;
+}
+
+#logo img {
+    width: 274px;
+    height: 78px;
+}
+
+
+
+#check {
+    display: none;
+}
+
+label {
+    font-size: 3em;
+    padding-right: 15px;
+}
+
+nav ul{
+   background-color: #343538;
+   height: 100vh;
+   position: fixed;
+   top: 60px;
+   right: -100%;
+   width: 100%;
+   transition: all 0.5s; 
+}
+
+#check:checked ~ ul {
+    right: 0;
+}
+
+nav ul li{
+    padding: 20px;
+    border-bottom: 1px solid #a9a9a9;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>*/
+
+@media (min-width: 576px) {
+    /* Layout */
+    .container {
+        max-width: 540px;
+    }
+}
+
+
+/* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>*/
+
+@media (min-width: 768px) {
+      /* Layout */
+    .container {
+        max-width: 720px;
+    } 
+}
+
+/* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>*/
+
+@media (min-width: 992px) {
+
+    /* Layout */
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* PC >>>>>>>>>>>>>>>>>>>>>>>>*/
+
+@media (min-width: 1200px) {
+   
+    /* Layout */
+    .container {
+        max-width: 1140px;
+    }
+
+  
+
+    /* Cabeçalho */
+header{
+    height: 120px;
+}
+
+#logo img {
+    width: 274px;
+    height: 78px;
+    margin-top: 30px;
+}
+
+label {
+    display: none;
+}
+
+nav ul {
+    position: static;
+    height: auto;
+    background-color: transparent;
+    margin-top: 37px;
+}
+
+nav ul li {
+    float: left;
+    border: 0;
+}
+
+nav ul li a {
+   color: #69707a;
+   
+}
+
+nav ul li a:hover{
+    background-color: #dc392d;
+    color: #ffffff;
+    box-sizing: border-box;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 8px;
+        
+ }
+
+}

@@ -17,7 +17,7 @@
 
 Esse projeto está sendo desenvolvido objetivando o aprendizado dos alunos da disciplina de Desenvolvimento Web (turma 224/2023), até o momento foi utilizado as seguintes tecnologias:
 
-- HTML5 -> Tags, links, imagens, Cabeçalho (header, nav, forms), Destaque (main), Sobre (section), Rodapé (footer).
+- HTML5 -> Tags, links, imagens, Menu suspenso, Cabeçalho (header, nav, forms), Destaque (main), Sobre (section), Rodapé (footer).
 - CSS3 -> Introdução ao CSS, Propriedades CSS, Seletores (Class, Id), Introdução a responsividade.
 
 ## 🚧 Projeto:

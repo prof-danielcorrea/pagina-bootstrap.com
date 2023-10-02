@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-<video><source src="./src/video/video-page.mp4" type="video/mp4"></video>
+  <img src="./src/images/video-page.gif" alt="imagem page" src="" width="100%">
 </p>
 
 <p align="center">

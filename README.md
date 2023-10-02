@@ -3,7 +3,11 @@
 </h1>
 
 <p align="center">
-  <img alt="" src="" width="100%">
+  <img src="./src/images/image-page.png" alt="imagem page" src="" width="100%">
+</p>
+
+<p align="center">
+<a href="./src/video/video-page.mp4" title="video page"></a>
 </p>
 
 <p align="center">
@@ -13,7 +17,7 @@
 
 <br>
 
-## 🚀 Tecnologias
+## 🚀 Tecnologias:
 
 Esse projeto está sendo desenvolvido objetivando o aprendizado dos alunos da disciplina de Desenvolvimento Web (turma 224/2023), até o momento foi utilizado as seguintes tecnologias abaixo:
 

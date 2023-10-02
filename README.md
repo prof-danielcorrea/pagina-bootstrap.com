@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-<a href="./src/video/video-page.mp4" title="video page"></a>
+<video src="./src/video/video-page.mp4" title="video page"></video>
 </p>
 
 <p align="center">

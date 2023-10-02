@@ -3,10 +3,6 @@
 </h1>
 
 <p align="center">
-  <img src="./src/images/image-page.png" alt="imagem page" src="" width="100%">
-</p>
-
-<p align="center">
   <img src="./src/images/video-page.gif" alt="imagem page" src="" width="100%">
 </p>
 
